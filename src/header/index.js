@@ -1,4 +1,4 @@
-import { AiOutlineSearch, AiOutlineHeart } from "react-icons/ai";
+import { AiOutlineHeart } from "react-icons/ai";
 import { BsInstagram, BsPerson, BsChat, BsBookmark } from "react-icons/bs";
 import { FiSend } from "react-icons/fi";
 import { MdOutlineExplore } from "react-icons/md";
@@ -7,7 +7,7 @@ import "./style.css";
 
 export function Header() {
   return (
-    <div className="header">
+    <header>
       <div className="container">
         <div className="begin-menu">
           <div className="img-instagram">
@@ -40,6 +40,6 @@ export function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 }

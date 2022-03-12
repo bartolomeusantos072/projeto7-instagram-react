@@ -1,29 +1,29 @@
-.header,
+header,
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header {
+header {
   height: 54px;
   width: 100%;
   background-color: var(--background);
   border-bottom: 1px solid #dbdbdb;
   position: fixed;
   top: 0;
-  /* z-index: 3; */
+  z-index: 3;
 }
-.header .container {
+header .container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  max-width: 975px;
+  max-width: 935px;
   width: 100%;
 }
 
-.header .container .begin-menu {
+header .container .begin-menu {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -33,7 +33,7 @@
   height: 40px;
 }
 
-.header .container .begin-menu img {
+header .container .begin-menu img {
   width: 103px;
   height: 25px;
   display: flex;
@@ -41,26 +41,26 @@
   justify-content: space-between;
 }
 
-.header .container .input-search {
+header .container .input-search {
   display: none;
 }
 
-.header .container .begin-menu .coluna {
+header .container .begin-menu .coluna {
   display: none;
 }
 
-.header .container .icones-menu {
+header .container .icones-menu {
   display: none;
 }
 
 @media (min-width: 613px) {
-  .header .container .begin-menu {
+  header .container .begin-menu {
     justify-content: flex-start;
     height: auto;
     width: auto;
   }
 
-  .header .container .begin-menu .coluna {
+  header .container .begin-menu .coluna {
     display: flex;
     width: 1px;
     height: 22px;
@@ -68,11 +68,11 @@
     margin-right: 10px;
     background-color: #dbdbdb;
   }
-  .header .container .begin-menu .img-paper {
+  header .container .begin-menu .img-paper {
     display: none;
   }
 
-  .header .container .input-search {
+  header .container .input-search {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,14 +87,14 @@
     color: #979797;
   }
 
-  .header .container .icones-menu {
+  header .container .icones-menu {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
   }
 
-  .header .container .icones-menu div {
+  header .container .icones-menu div {
     margin-left: 22px;
    
   }
