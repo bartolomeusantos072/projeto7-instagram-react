@@ -55,6 +55,7 @@
   .post .fundo .acoes .icons svg{
     width:24px;
     height: 24px;
+    font-weight: 100;
   }
   
   .post .fundo .curtidas {

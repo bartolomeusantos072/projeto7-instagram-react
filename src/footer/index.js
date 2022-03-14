@@ -1,7 +1,7 @@
 import { AiOutlineHeart,AiOutlineSearch } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { BsPlusCircle } from "react-icons/bs";
-import {IoHome} from "react-icons/io";
+import {IoHome} from "react-icons/io5";
 import "./style.css";
 
 
