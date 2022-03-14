@@ -1,6 +1,7 @@
-import { AiOutlineHeart,AiFillHome,AiOutlineSearch } from "react-icons/ai";
+import { AiOutlineHeart,AiOutlineSearch } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { BsPlusCircle } from "react-icons/bs";
+import {IoHome} from "react-icons/io";
 import "./style.css";
 
 
@@ -8,19 +9,19 @@ import "./style.css";
 export function Footer(){
     return(
         <footer>
-        <div className="img-home">
-            <AiFillHome/>
+        <div className="icons">
+            <IoHome/>
         </div>
-        <div className="img-search">
+        <div className="icons">
            <AiOutlineSearch/>
         </div>
-        <div className="img-add">
+        <div className="icons">
             <BsPlusCircle/>
         </div>
-        <div className="img-heart">
+        <div className="icons">
             <AiOutlineHeart/>
         </div>
-        <div className="img-person">
+        <div className="icons">
             <BsPerson/>
         </div>
     </footer>
