@@ -1,6 +1,6 @@
 @media (min-width: 934px) {
     .sidebar {
-        /* padding-top: 24px; */
+        
         position: sticky;
         top: 88px;
       }
@@ -21,12 +21,11 @@
         flex-direction: column;
         margin-left: 14px;
         font-weight: 300;
-        color: #8E8E8E;
+        color:var(--segundary)
       }
       
-      .sidebar > .usuario .texto strong {
-        font-weight: 500;
-        color: #262626;
+      .sidebar > .usuario .texto {
+        color: var(--primary);
       }
       
       .sidebar .sugestoes .titulo {
@@ -34,6 +33,11 @@
         justify-content: space-between;
         align-items: center;
         padding: 20px 0 14px;
+        color:var(--primary);
+        font-family: 'Roboto',sans-serif;
+        font-weight:400;
+        font-size: 14px;
+        line-height:14px;
       }
       
       .sidebar .sugestoes .sugestao {

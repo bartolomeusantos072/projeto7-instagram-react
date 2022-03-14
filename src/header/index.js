@@ -23,7 +23,7 @@ export function Header() {
         </div>
         <div className="input-search">
           
-          <div className="pesquisa">Pesquisa</div>
+          <input className="pesquisa" placeholder="Pesquisa"/>
         </div>
         <div className="icones-menu">
           <div className="img-paper">

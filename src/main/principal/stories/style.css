@@ -6,6 +6,7 @@
   padding: 0 18px;
   overflow: hidden;
   position: relative;
+ 
 }
 
 .story {
@@ -42,6 +43,9 @@
     text-overflow: ellipsis;
     text-align: center;
     height: 14px;
+    font-size: 12px;
+    line-height: 12px;
+    color:var(--primary);
   }
   
  .setinha {

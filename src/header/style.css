@@ -8,7 +8,7 @@ header {
   height: 54px;
   width: 100%;
   background-color: var(--background);
-  border-bottom: 1px solid --border;
+  border-bottom: 1px solid var(--border);
   position: fixed;
   top: 0;
   z-index: 3;
@@ -53,8 +53,17 @@ header .container .icones-menu {
   display: none;
 }
 
+header .container .img-instagram svg,.icones-menu svg{
+  width: 22px;
+  height: 22px;
+  color:#262626;
+  font-weight: 400;
+
+}
 @media (min-width: 613px) {
+
   header .container .begin-menu {
+    align-items: center;
     justify-content: flex-start;
     height: auto;
     width: auto;
@@ -63,11 +72,17 @@ header .container .icones-menu {
   header .container .begin-menu .coluna {
     display: flex;
     width: 1px;
-    height: 22px;
+    height: 23px;
     margin-left: 11.38px;
     margin-right: 10px;
+    margin-top:-5px;
     background-color: #dbdbdb;
   }
+  header .container .begin-menu img{
+    height:29px;
+    width: 103px;
+  }
+
   header .container .begin-menu .img-paper {
     display: none;
   }
@@ -81,6 +96,9 @@ header .container .icones-menu {
     background: #fafafa;
     border: 1px solid var(--border);
     border-radius: 3px;
+  
+  }
+  input{
     font-weight: 400;
     font-size: 12px;
     text-align: center;
@@ -95,7 +113,7 @@ header .container .icones-menu {
   }
 
   header .container .icones-menu div {
-    margin-left: 22px;
+    margin-left: 10px;
    
   }
 }
