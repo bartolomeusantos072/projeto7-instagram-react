@@ -27,14 +27,13 @@ main{
   }
 }
 
- 
 
 
 @media (min-width: 934px) {
   main{
     justify-content: space-between;
   }
-  
+
   aside {
     display: flex;
     padding-top: 24px;
