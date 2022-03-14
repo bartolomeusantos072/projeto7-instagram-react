@@ -56,10 +56,18 @@ header .container .icones-menu {
   display: none;
 }
 
-header .container .img-instagram svg,.icones-menu svg{
+header .container .img-instagram svg{
+  width: 20px;
+  height: 20px;
+  color:--primary;
+  font-weight: 400;
+  cursor: pointer;
+
+}
+header .container .icones-menu svg{
   width: 22px;
   height: 22px;
-  color:#262626;
+  color:--primary;
   font-weight: 400;
   cursor: pointer;
 
