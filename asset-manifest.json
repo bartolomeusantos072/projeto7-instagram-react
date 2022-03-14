@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Uenderss/projeto7-instagram-react/static/css/main.b18f973e.chunk.css",
+    "main.js": "/Uenderss/projeto7-instagram-react/static/js/main.b30cb726.chunk.js",
+    "main.js.map": "/Uenderss/projeto7-instagram-react/static/js/main.b30cb726.chunk.js.map",
+    "runtime-main.js": "/Uenderss/projeto7-instagram-react/static/js/runtime-main.071d53dd.js",
+    "runtime-main.js.map": "/Uenderss/projeto7-instagram-react/static/js/runtime-main.071d53dd.js.map",
+    "static/js/2.3eeadc9a.chunk.js": "/Uenderss/projeto7-instagram-react/static/js/2.3eeadc9a.chunk.js",
+    "static/js/2.3eeadc9a.chunk.js.map": "/Uenderss/projeto7-instagram-react/static/js/2.3eeadc9a.chunk.js.map",
+    "index.html": "/Uenderss/projeto7-instagram-react/index.html",
+    "static/css/main.b18f973e.chunk.css.map": "/Uenderss/projeto7-instagram-react/static/css/main.b18f973e.chunk.css.map",
+    "static/js/2.3eeadc9a.chunk.js.LICENSE.txt": "/Uenderss/projeto7-instagram-react/static/js/2.3eeadc9a.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/Uenderss/projeto7-instagram-react/static/media/story-circle.55116c7d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.071d53dd.js",
+    "static/js/2.3eeadc9a.chunk.js",
+    "static/css/main.b18f973e.chunk.css",
+    "static/js/main.b30cb726.chunk.js"
+  ]
+}
