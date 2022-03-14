@@ -21,7 +21,7 @@ aside {
 
 @media (min-width: 613px) {
 main{  
-    justify-content: space-between;
+    justify-content: center;
     width: 935px;
     margin: 88px auto 0 auto;
   }
@@ -31,7 +31,10 @@ main{
 
 
 @media (min-width: 934px) {
-
+  main{
+    justify-content: space-between;
+  }
+  
   aside {
     display: flex;
     padding-top: 24px;

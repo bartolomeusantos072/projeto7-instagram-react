@@ -40,7 +40,8 @@ export default function Lateral() {
           <div>Ver tudo</div>
         </div>
 
-        {sugestoes.map((sugestao) => (
+        {
+        sugestoes.map((sugestao) => (
           <div className="sugestao">
             <div className="usuario">
               <img src={sugestao.imgSrc} alt="" />
@@ -59,7 +60,7 @@ export default function Lateral() {
           {meusLinks}
       </div>
 
-      <div className="copyright">© 2021 INSTAGRAM DO FACEBOOK</div>
+      <div className="copyright">{"© 2021 INSTAGRAM DO FACEBOOK"}</div>
     </div>
   );
 }
