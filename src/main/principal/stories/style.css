@@ -1,9 +1,8 @@
+
 .stories {
   display: flex;
   align-items: center;
   height: 118px;
-  border-radius: 3px;
-  border: 1px solid #DBDBDB;
   padding: 0 18px;
   overflow: hidden;
   position: relative;
@@ -27,7 +26,7 @@
     align-items: center;
     height: 66px;
     width: 66px;
-    background-image: url('imagem/story-circle.svg');
+    background-image: url('./story-circle.svg');
     
   }
   
@@ -55,4 +54,10 @@
     font-size: 28px;
     cursor: pointer;
   }
-   
+  
+  @media (min-width:600px){
+    .stories{
+      border-radius: 3px;
+      border: 1px solid var(--border);
+    }
+  }

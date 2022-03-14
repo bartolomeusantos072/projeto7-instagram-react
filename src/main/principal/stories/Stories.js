@@ -1,4 +1,4 @@
-import {IoIosArrowDropright} from "react-icons/io";
+import {IoIosArrowDroprightCircle} from "react-icons/io";
 import "./style.css";
 
 
@@ -34,11 +34,11 @@ import "./style.css";
 
 export default function Stories(){
     return(
-        <>
+        <div className="stories">
         <Contatos/>
-        <div className="setinha">
-              <IoIosArrowDropright/>
+            <div className="setinha">
+              <IoIosArrowDroprightCircle/>
+            </div>
         </div>
-        </>
     );
 }
