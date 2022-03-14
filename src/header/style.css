@@ -3,6 +3,7 @@ header,
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 header {
   height: 54px;
@@ -31,6 +32,7 @@ header .container .begin-menu {
   width: 100%;
   padding: 1px 4px;
   height: 40px;
+  
 }
 
 header .container .begin-menu img {
@@ -39,6 +41,7 @@ header .container .begin-menu img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 header .container .input-search {
@@ -58,6 +61,7 @@ header .container .img-instagram svg,.icones-menu svg{
   height: 22px;
   color:#262626;
   font-weight: 400;
+  cursor: pointer;
 
 }
 @media (min-width: 613px) {
