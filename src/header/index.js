@@ -1,5 +1,5 @@
 import { AiOutlineHeart } from "react-icons/ai";
-import { BsInstagram, BsPerson, BsChat, BsBookmark } from "react-icons/bs";
+import { BsInstagram, BsPerson } from "react-icons/bs";
 import { FiSend } from "react-icons/fi";
 import { MdOutlineExplore } from "react-icons/md";
 import logo from "./logo.png";
