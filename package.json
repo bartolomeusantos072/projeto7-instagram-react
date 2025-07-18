@@ -2,7 +2,7 @@
   "name": "projeto7-instagram-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Uenderss/projeto7-instagram-react",
+  "homepage": "https://github.com/bartolomeusantos072/projeto7-instagram-react",
   "dependencies": {
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
